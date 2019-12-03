@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <head>
+      <title> Meet Eric and Haven </title>
+  </head>
+  <body>
+    <h1> Today's date: {{ now_month }}/{{ now_day }} </h1>
+      {% if code_day %}
+      <h3> Time to Code Biatch </h3>
+      {% else %}
+      <h3> No it's not code day </h3>
+      {% endif %}
+  </body>
+</html>
